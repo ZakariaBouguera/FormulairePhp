@@ -97,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
- <? // permet d'afficher les erreurs, j'ai mis dans une balise php car j'arriver pas a compter sans =) ?>
+ <? // permet d'afficher les erreurs, j'ai mis dans une balise php car j'arriver pas a commenter sans =) ?>
 <?php if (!empty($erreurs_possible)): ?>
     <ul style="color:red;">
         <?php foreach ($erreurs_possible as $erreur): ?>
@@ -124,3 +124,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <input type="submit" value="Valider">
 </form>
+
