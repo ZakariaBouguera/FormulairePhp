@@ -111,7 +111,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <label>lastname :</label><br>
 <input type="text" name="lastname" value="<?= $valeur['lastname'] ?>"><br>
 
-<label>Prélastname :</label><br>
+<label>firstname :</label><br>
 <input type="text" name="firstname" value="<?=  $valeur['firstname'] ?>"><br>
 
 <label>Adresse Mail :</label><br>
@@ -124,4 +124,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <input type="submit" value="Valider">
 </form>
+
 
